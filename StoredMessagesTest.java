@@ -1,5 +1,6 @@
 package quickchat;
 
+import chatapp.Message;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
