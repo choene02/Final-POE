@@ -1,5 +1,6 @@
 package quickchat;
 
+import chatapp.Message;
 import java.util.Scanner;
 
 public class MainApp {
