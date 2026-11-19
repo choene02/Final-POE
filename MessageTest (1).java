@@ -1,5 +1,6 @@
 package quickchat;
 
+import chatapp.Message;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -128,4 +129,4 @@ public class MessageTest {
         assertTrue(content.contains("\"messageHash\": \"00:0:HITONIGHT\""));
         assertTrue(content.contains("\"recipient\": \"+27718693002\""));
     }
-}
+}  
