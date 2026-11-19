@@ -1,4 +1,4 @@
-package quickchat;
+package chatapp;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -12,6 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import quickchat.Login;
 
 /**
  * Represents one QuickChat message and holds the arrays used by the app.
@@ -463,4 +464,4 @@ public class Message {
         messageHashes.clear();
         messageIds.clear();
     }
-}
+}    
